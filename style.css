@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* 
+ - - - - - - - - - - -
+ header style start 
+ - - - - - - - - - - - 
+  */
+.header-section {
+  background: #ffffff;
+}
+.btn-trial {
+  border-radius: 4px;
+  width: 175px;
+  height: 45px;
+}
+
+.nav-item a {
+  margin-left: 30px;
+}
+/* 
+ - - - - - - - - - - -
+ header style end 
+ - - - - - - - - - - - 
+  */
+
+/* ----------------------------- */
+
+/* banner style start  */
+.banner-section {
+  background-image: url(./images/BG.png);
+  background-repeat: no-repeat;
+  height: 80vh;
+  background-size: cover;
+  background-position: center center;
+}
+/* banner style end  */
+
+/* 
+ ----------------------------
+ 3setps section style start 
+ --------------------------
+ */
+.three-step {
+  margin-bottom: 100px;
+}
+.personalize img {
+  margin-top: -110px;
+  margin-left: -80px;
+}
+.understand-logo {
+  margin-top: -110px;
+  margin-left: -80px;
+}
+.understand {
+  margin-top: 43vh !important;
+}
+/*
+-------------------------
+3setps section style end 
+-----------------------
+*/
+
+/* video section style start  */
+.video-section {
+  background: #245852;
+  padding: 100px;
+  margin-bottom: 51px;
+}
+.video img {
+  width: 100%;
+}
+/* video section style end  */
+
+/*
+----------------------------------------
+pruduct and footer section style start
+-----------------------------------------
+ */
+.product-section {
+  margin-bottom: 168px;
+}
+.product img {
+  width: 100%;
+}
+.footer-section {
+  background: #245852;
+  padding: 70px;
+}
+/*
+----------------------------
+pruduct and footer section style end
+---------------------------- 
+ */
+
+/* media query for mobile  */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .understand {
+    margin-top: 10px !important;
+  }
+}
